@@ -1,5 +1,7 @@
   /* Create an accessible color palette using var()function */
   /* https://www.w3schools.com/css/css3_variables.asp */
+
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
   
   form {
     display: grid;
@@ -12,6 +14,10 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #702082;
     background: #d1fdff;
+  }
+
+  body {
+    font-family: "noto sans", sans-serif;
   }
 
   .radio {
